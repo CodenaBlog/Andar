@@ -1,0 +1,246 @@
+
+
+.common-inner{
+  margin: 0 auto;
+  width: 1152px;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/* blind */
+.blind{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+/* dot */
+.dot{
+  position: relative;
+}
+.dot::after{
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ee5728;
+}
+
+/**/
+.hidden{
+  overflow: hidden;
+}
+
+
+/* 전체보기 btn */
+.sc-collect .link-all{
+  margin: 0 auto 65px;
+  width: 100%;
+  height: 52px;
+}
+.sc-collect .link-all span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.sc-collect .link-all span i{
+  color: #C86733;
+  padding-right: 3px;
+}
+.sc-collect .link-all span::after{
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/ico-more.png) no-repeat;
+  background-size: 19px 19px;
+}
+
+
+ /* headline 공통 */
+[class*="sc-"] .headline{
+  font-size: 20px;
+  line-height: 29px;
+  color: #333;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
+
+/* prd list 공통 */
+.prd-list .prd-item .img-box{
+  position: relative;
+}
+.prd-list .prd-item .img-box .icons{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.prd-list .prd-item .img-box .renk{
+  width: 25px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+}
+.prd-list .prd-item .icons img{
+  width: 37px;
+}
+.prd-list .prd-item .img-box .prd-img{
+  width: 100%;
+}
+
+.prd-list .prd-item .text-wrap{
+  padding: 15px 10px 0;
+}
+
+.prd-list .text-wrap .review{
+  display: block;
+  color: var(--color--red);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.prd-list .text-wrap .title{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 17px;
+}
+.prd-list .text-wrap .title span{
+  font-weight: 400;
+}
+
+.prd-list .text-wrap .price-box .discount{
+  color: var(--color--red);
+  font-weight: 700;
+  margin-right: 5px;
+}
+.prd-list .text-wrap .price-box .curr{
+  color: #333;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+.prd-list .text-wrap .price-box .ori{
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8d8d8d;
+  margin-left: 5px;
+  text-decoration-line: line-through;
+}
+
+.prd-list .text-wrap .etc-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+.prd-list .text-wrap .etc{
+  border: 1px solid rgba(142,31,41,0.5);
+  padding: 5px 6px;
+  font-size: 9px;
+  line-height: 9px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: var(--color--red);
+}
+
+/* prd 1 */
+.prd-list.list1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.prd-list.list1 .prd-item{
+  width: calc(50% - 5px);
+  margin-bottom: 50px;
+}
+
+/* prd 2 */
+.prd-list.list2{
+  padding: 0 16px;
+}
+.prd-list.list2 .prd-item+.prd-item{
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #eee;
+}
+.prd-list.list2 .prd-item>a{
+  display: flex;
+}
+.prd-list.list2 .prd-item .img-box{
+  width: 110px;
+}
+.prd-list.list2 .prd-item .text-wrap{
+  flex: 1;
+  padding: 0 28px;
+}
+
+/* theme -> main headline */
+.group-theme{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.group-theme .text-wrap{
+  padding : 20px 16px 34px;
+  color: #212326;
+}
+.group-theme .text-wrap .headline{
+  font-size: 26px;
+  line-height: 35px;
+  font-weight: 700;
+}
+.group-theme .text-wrap .desc{
+  padding: 14px 0 18px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.group-theme .link-go{
+  padding: 8px 18px 8px;
+  box-sizing: border-box;
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+.group-theme .link-go span{
+}
+.group-theme .link-go::after{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 18px;
+  background: url(../img/ico-more-arrow.png) no-repeat 10px 7px;
+  background-size: 15px auto;
+}
+
