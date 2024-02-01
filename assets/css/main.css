@@ -1,0 +1,253 @@
+.main{
+  width: 100%;
+}
+
+
+/* main slide */
+.sc-visual{
+  height:calc(100vh - 140px);
+}
+
+.sc-visual .visual-slide{
+  position: relative;
+  height: 100%;
+}
+.sc-visual .visual-slide .visual-prd a{
+  display: block;
+}
+.sc-visual .visual-slide .visual-prd img{
+  height: 100%;
+  width: 100%;
+}
+.sc-visual .swiper-slide .text-box{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 95px 35px;
+}
+.sc-visual .swiper-slide .text-box .title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.25;
+  letter-spacing: -1.3px;
+  color: #fff;
+}
+.sc-visual .swiper-slide .text-box .decs{
+  font-weight: 400;
+  padding-top: 15px;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  color: #fff;
+}
+
+.sc-visual .swiper-pagination{
+  bottom: 37px;
+  width: 171px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sc-visual .visual-slide .swiper-pagination-bullet{
+  background: #fff;
+  width: 20px;
+  height: 2px;
+  margin: 0;
+  border-right: 0;
+}
+.sc-visual .swiper-pagination-bullet-active{}
+
+
+
+/* best */
+.sc-collect .headline{
+  padding: 50px 16px 22px;
+  text-align: center;
+}
+
+/* best -> category */
+.sc-collect .gourp-cate{
+  padding: 0 16px;
+}
+.sc-collect .gourp-cate .cate-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  padding: 0 2px;
+}
+.sc-collect .gourp-cate .cate-itme{
+  padding: 8px 13px 9px 12px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #77797E;
+  line-height: normal;
+}
+.sc-collect .gourp-cate .cate-itme.on{
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #B75622;
+  border-radius: 60px;
+}
+
+
+/* coupon banner */
+.sc-coupon{
+  width: 100%;
+  margin: 0 auto;
+}
+.sc-coupon img{
+  width: 100%;
+}
+
+
+/* brend story banner */
+.sc-brendstory{
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+  height: 100%;
+  background-color: #C86733;
+}
+.sc-brendstory a{
+  display: block;
+  padding: 56px 20px;
+}
+.sc-brendstory .title{
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  margin: 0 auto 10px;
+  font-weight: 400;
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 5px;
+  line-height: 1.2;
+}
+.sc-brendstory .title-slogan{
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  font-weight: 700;
+}
+.sc-brendstory .desc{
+  padding: 10px 0 5px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.sc-brendstory .btn-details{
+  display: inline-block;
+  width: 100px;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+
+
+/* category slide */
+.sc-category .group-recomm{
+  position: relative;
+  padding: 0 20px;
+}
+.sc-category .group-recomm .headline{
+  padding: 30px 0;
+}
+.sc-category .group-recomm .prd-item a{
+  display: block;
+  width: 100%;
+}
+.sc-category .group-recomm .link-more{
+  position: absolute;
+  top: 38px;
+  right: 20px;
+  font-size: 14px;
+}
+.sc-category .group-recomm .link-more::after{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 11px;
+  margin-left: 5px;
+  background: url(../img/ico-more-arrow.png) no-repeat;
+  background-size: 15px auto;
+}
+
+
+/* bottom banner */
+.bottom-banner{
+  padding-top: 70px;
+  width: 100%;
+}
+
+.bottom-banner .sc-info+.sc-info{
+  margin-top: 10px;
+}
+.bottom-banner .sc-info a{
+  position: relative;
+  display: block;
+  padding: 65px 20px;
+}
+.bottom-banner .sc-info .bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.bottom-banner .sc-mall{
+}
+
+.bottom-banner .sc-membership .text-wrap{
+  position: absolute;
+  padding: 65px 20px;
+  left: 0;
+  bottom: 0;
+  
+  width: 100%;
+  height: 100%;
+}
+.bottom-banner .sc-mall .text-wrap{
+  position: absolute;
+  padding: 74px 20px 80px;
+  left: 0;
+  bottom: 0;
+}
+
+.bottom-banner .headline{
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.bottom-banner .desc{
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #fff;
+  padding: 15px 0 30px;
+  box-sizing: border-box;
+}
+.bottom-banner .btn-details{
+  width: 122px;
+  padding: 7px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
